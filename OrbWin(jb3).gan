@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="OrbWin_software_development" company="" webLink="http://" view-date="2022-09-25" view-index="0" gantt-divider-location="393" resource-divider-location="300" version="3.2.3247" locale="en_US">
+    <description>
+        <![CDATA[Excel orbital mechanical develoment]]>
+    </description>
+    <view zooming-state="default:7" id="gantt-chart">
+        <field id="tpd11" name="Outline number" width="46" order="0"/>
+        <field id="tpd3" name="Name" width="143" order="1"/>
+        <field id="tpd6" name="Duration" width="27" order="2"/>
+        <field id="tpd7" name="Completion" width="46" order="3"/>
+        <field id="tpd4" name="Begin date" width="56" order="4"/>
+        <field id="tpd5" name="End date" width="74" order="5"/>
+        <option id="taskLabelDown" value="name"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="color.recent">
+            <![CDATA[#99ffff]]>
+        </option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars base-id="us.federal">
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="0" mon="0" tue="0" wed="0" thu="0" fri="0" sat="0"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+        <date year="" month="1" date="1" type="HOLIDAY">
+            <![CDATA[New Years Day]]>
+        </date>
+        <date year="" month="2" date="2" type="NEUTRAL">
+            <![CDATA[Groundhog Day]]>
+        </date>
+        <date year="" month="7" date="4" type="HOLIDAY">
+            <![CDATA[Independence Day]]>
+        </date>
+        <date year="" month="11" date="11" type="HOLIDAY">
+            <![CDATA[Veterans Day]]>
+        </date>
+        <date year="" month="12" date="25" type="HOLIDAY">
+            <![CDATA[Christmas Day]]>
+        </date>
+        <date year="2022" month="1" date="17" type="HOLIDAY">
+            <![CDATA[Martin Luther King Day]]>
+        </date>
+        <date year="2022" month="2" date="21" type="HOLIDAY">
+            <![CDATA[Presidents' Day]]>
+        </date>
+        <date year="2022" month="5" date="8" type="NEUTRAL">
+            <![CDATA[Mother's Day]]>
+        </date>
+        <date year="2022" month="5" date="30" type="HOLIDAY">
+            <![CDATA[Memorial Day]]>
+        </date>
+        <date year="2022" month="6" date="19" type="HOLIDAY">
+            <![CDATA[Juneteenth]]>
+        </date>
+        <date year="2022" month="6" date="20" type="HOLIDAY">
+            <![CDATA[Juneteenth (in lieu)]]>
+        </date>
+        <date year="2022" month="9" date="5" type="HOLIDAY">
+            <![CDATA[Labor Day]]>
+        </date>
+        <date year="2022" month="10" date="10" type="HOLIDAY">
+            <![CDATA[Columbus Day]]>
+        </date>
+        <date year="2022" month="11" date="24" type="HOLIDAY">
+            <![CDATA[Thanksgiving]]>
+        </date>
+        <date year="2022" month="11" date="25" type="HOLIDAY">
+            <![CDATA[Day after Thanksgiving]]>
+        </date>
+        <date year="2022" month="12" date="26" type="HOLIDAY">
+            <![CDATA[Christmas Day (in lieu)]]>
+        </date>
+        <date year="2008" month="1" date="21" type="HOLIDAY">
+            <![CDATA[Martin Luther King Day]]>
+        </date>
+        <date year="2008" month="2" date="18" type="HOLIDAY">
+            <![CDATA[Presidents Day]]>
+        </date>
+        <date year="2008" month="5" date="26" type="HOLIDAY">
+            <![CDATA[Memorial Day]]>
+        </date>
+        <date year="2008" month="9" date="1" type="HOLIDAY">
+            <![CDATA[Labor Day]]>
+        </date>
+        <date year="2008" month="10" date="13" type="HOLIDAY">
+            <![CDATA[Columbus Day]]>
+        </date>
+        <date year="2008" month="11" date="27" type="HOLIDAY">
+            <![CDATA[Thanksgiving]]>
+        </date>
+        <date year="2008" month="11" date="28" type="NEUTRAL">
+            <![CDATA[Day after Thanksgiving]]>
+        </date>
+        <date year="2009" month="1" date="19" type="HOLIDAY">
+            <![CDATA[Martin Luther King Day]]>
+        </date>
+        <date year="2009" month="2" date="16" type="HOLIDAY">
+            <![CDATA[Presidents Day]]>
+        </date>
+        <date year="2009" month="5" date="25" type="HOLIDAY">
+            <![CDATA[Memorial Day]]>
+        </date>
+        <date year="2009" month="7" date="3" type="HOLIDAY">
+            <![CDATA[Independence Day]]>
+        </date>
+        <date year="2009" month="9" date="7" type="HOLIDAY">
+            <![CDATA[Labor Day]]>
+        </date>
+        <date year="2009" month="10" date="12" type="HOLIDAY">
+            <![CDATA[Columbus Day]]>
+        </date>
+        <date year="2009" month="11" date="26" type="HOLIDAY">
+            <![CDATA[Thanksgiving]]>
+        </date>
+        <date year="2009" month="11" date="27" type="NEUTRAL">
+            <![CDATA[Day after Thanksgiving]]>
+        </date>
+        <date year="2010" month="1" date="18" type="HOLIDAY">
+            <![CDATA[Martin Luther King Day]]>
+        </date>
+        <date year="2010" month="2" date="15" type="HOLIDAY">
+            <![CDATA[Presidents Day]]>
+        </date>
+        <date year="2010" month="5" date="9" type="NEUTRAL">
+            <![CDATA[Mothers Day]]>
+        </date>
+        <date year="2010" month="5" date="31" type="HOLIDAY">
+            <![CDATA[Memorial Day]]>
+        </date>
+        <date year="2010" month="7" date="5" type="HOLIDAY">
+            <![CDATA[Independence Day]]>
+        </date>
+        <date year="2010" month="9" date="6" type="HOLIDAY">
+            <![CDATA[Labor Day]]>
+        </date>
+        <date year="2010" month="10" date="11" type="HOLIDAY">
+            <![CDATA[Columbus Day]]>
+        </date>
+        <date year="2010" month="11" date="25" type="HOLIDAY">
+            <![CDATA[Thanksgiving]]>
+        </date>
+        <date year="2010" month="11" date="26" type="NEUTRAL">
+            <![CDATA[Day after Thanksgiving]]>
+        </date>
+        <date year="2010" month="12" date="24" type="HOLIDAY">
+            <![CDATA[Christmas Day (in lieu)]]>
+        </date>
+        <date year="2010" month="12" date="31" type="HOLIDAY">
+            <![CDATA[New Years Day (in lieu)]]>
+        </date>
+        <date year="2011" month="1" date="17" type="HOLIDAY">
+            <![CDATA[Martin Luther King Day]]>
+        </date>
+        <date year="2011" month="2" date="21" type="HOLIDAY">
+            <![CDATA[Presidents Day]]>
+        </date>
+        <date year="2011" month="4" date="15" type="NEUTRAL">
+            <![CDATA[Emancipation Day (Regional)]]>
+        </date>
+        <date year="2011" month="5" date="8" type="NEUTRAL">
+            <![CDATA[Mothers Day]]>
+        </date>
+        <date year="2011" month="5" date="30" type="HOLIDAY">
+            <![CDATA[Memorial Day]]>
+        </date>
+        <date year="2011" month="6" date="19" type="NEUTRAL">
+            <![CDATA[Fathers Day]]>
+        </date>
+        <date year="2011" month="9" date="5" type="HOLIDAY">
+            <![CDATA[Labor Day]]>
+        </date>
+        <date year="2011" month="10" date="10" type="HOLIDAY">
+            <![CDATA[Columbus Day]]>
+        </date>
+        <date year="2011" month="11" date="24" type="HOLIDAY">
+            <![CDATA[Thanksgiving]]>
+        </date>
+        <date year="2011" month="11" date="25" type="NEUTRAL">
+            <![CDATA[Day after Thanksgiving]]>
+        </date>
+        <date year="2011" month="12" date="26" type="HOLIDAY">
+            <![CDATA[Christmas Holiday]]>
+        </date>
+        <date year="2012" month="1" date="2" type="HOLIDAY">
+            <![CDATA[New Years Day (in lieu)]]>
+        </date>
+        <date year="2012" month="1" date="16" type="HOLIDAY">
+            <![CDATA[Martin Luther King Day]]>
+        </date>
+        <date year="2012" month="2" date="20" type="HOLIDAY">
+            <![CDATA[Presidents Day]]>
+        </date>
+        <date year="2012" month="4" date="16" type="NEUTRAL">
+            <![CDATA[Emancipation Day (Regional)]]>
+        </date>
+        <date year="2012" month="5" date="13" type="NEUTRAL">
+            <![CDATA[Mothers Day]]>
+        </date>
+        <date year="2012" month="5" date="28" type="HOLIDAY">
+            <![CDATA[Memorial Day]]>
+        </date>
+        <date year="2012" month="6" date="17" type="NEUTRAL">
+            <![CDATA[Fathers Day]]>
+        </date>
+        <date year="2012" month="9" date="3" type="HOLIDAY">
+            <![CDATA[Labor Day]]>
+        </date>
+        <date year="2012" month="10" date="8" type="HOLIDAY">
+            <![CDATA[Columbus Day]]>
+        </date>
+        <date year="2012" month="11" date="12" type="HOLIDAY">
+            <![CDATA[Veterans Day]]>
+        </date>
+        <date year="2012" month="11" date="22" type="HOLIDAY">
+            <![CDATA[Thanksgiving]]>
+        </date>
+        <date year="2012" month="11" date="23" type="NEUTRAL">
+            <![CDATA[Day after Thanksgiving]]>
+        </date>
+        <date year="2013" month="1" date="21" type="HOLIDAY">
+            <![CDATA[Martin Luther King Day]]>
+        </date>
+        <date year="2013" month="2" date="18" type="HOLIDAY">
+            <![CDATA[Presidents Day]]>
+        </date>
+        <date year="2013" month="4" date="16" type="NEUTRAL">
+            <![CDATA[Emancipation Day (Regional)]]>
+        </date>
+        <date year="2013" month="5" date="12" type="NEUTRAL">
+            <![CDATA[Mothers Day]]>
+        </date>
+        <date year="2013" month="5" date="27" type="HOLIDAY">
+            <![CDATA[Memorial Day]]>
+        </date>
+        <date year="2013" month="6" date="16" type="NEUTRAL">
+            <![CDATA[Fathers Day]]>
+        </date>
+        <date year="2013" month="9" date="2" type="HOLIDAY">
+            <![CDATA[Labor Day]]>
+        </date>
+        <date year="2013" month="10" date="14" type="HOLIDAY">
+            <![CDATA[Columbus Day]]>
+        </date>
+        <date year="2013" month="11" date="28" type="HOLIDAY">
+            <![CDATA[Thanksgiving]]>
+        </date>
+        <date year="2013" month="11" date="29" type="NEUTRAL">
+            <![CDATA[Day after Thanksgiving]]>
+        </date>
+        <date year="2014" month="1" date="20" type="HOLIDAY">
+            <![CDATA[Martin Luther King Day]]>
+        </date>
+        <date year="2014" month="2" date="17" type="HOLIDAY">
+            <![CDATA[Presidents Day]]>
+        </date>
+        <date year="2014" month="4" date="16" type="NEUTRAL">
+            <![CDATA[Emancipation Day (Regional)]]>
+        </date>
+        <date year="2014" month="5" date="11" type="NEUTRAL">
+            <![CDATA[Mothers Day]]>
+        </date>
+        <date year="2014" month="5" date="26" type="HOLIDAY">
+            <![CDATA[Memorial Day]]>
+        </date>
+        <date year="2014" month="6" date="15" type="NEUTRAL">
+            <![CDATA[Fathers Day]]>
+        </date>
+        <date year="2014" month="9" date="1" type="HOLIDAY">
+            <![CDATA[Labor Day]]>
+        </date>
+        <date year="2014" month="10" date="13" type="HOLIDAY">
+            <![CDATA[Columbus Day]]>
+        </date>
+        <date year="2014" month="11" date="27" type="HOLIDAY">
+            <![CDATA[Thanksgiving]]>
+        </date>
+        <date year="2014" month="11" date="28" type="NEUTRAL">
+            <![CDATA[Day after Thanksgiving]]>
+        </date>
+        <date year="2014" month="12" date="26" type="HOLIDAY">
+            <![CDATA[Day after Christmas]]>
+        </date>
+        <date year="2015" month="1" date="19" type="HOLIDAY">
+            <![CDATA[Martin Luther King Day]]>
+        </date>
+        <date year="2015" month="2" date="16" type="HOLIDAY">
+            <![CDATA[Presidents Day]]>
+        </date>
+        <date year="2015" month="4" date="16" type="NEUTRAL">
+            <![CDATA[Emancipation Day (Regional)]]>
+        </date>
+        <date year="2015" month="5" date="10" type="NEUTRAL">
+            <![CDATA[Mothers Day]]>
+        </date>
+        <date year="2015" month="5" date="25" type="HOLIDAY">
+            <![CDATA[Memorial Day]]>
+        </date>
+        <date year="2015" month="6" date="21" type="NEUTRAL">
+            <![CDATA[Fathers Day]]>
+        </date>
+        <date year="2015" month="7" date="3" type="HOLIDAY">
+            <![CDATA[Independence Day (observed)]]>
+        </date>
+        <date year="2015" month="9" date="7" type="HOLIDAY">
+            <![CDATA[Labor Day]]>
+        </date>
+        <date year="2015" month="10" date="12" type="HOLIDAY">
+            <![CDATA[Columbus Day]]>
+        </date>
+        <date year="2015" month="11" date="26" type="HOLIDAY">
+            <![CDATA[Thanksgiving]]>
+        </date>
+        <date year="2015" month="11" date="27" type="NEUTRAL">
+            <![CDATA[Day after Thanksgiving]]>
+        </date>
+        <date year="2016" month="1" date="18" type="HOLIDAY">
+            <![CDATA[Martin Luther King Day]]>
+        </date>
+        <date year="2016" month="2" date="15" type="HOLIDAY">
+            <![CDATA[Presidents Day]]>
+        </date>
+        <date year="2016" month="4" date="15" type="NEUTRAL">
+            <![CDATA[Emancipation Day (Regional)]]>
+        </date>
+        <date year="2016" month="5" date="8" type="NEUTRAL">
+            <![CDATA[Mothers Day]]>
+        </date>
+        <date year="2016" month="5" date="30" type="HOLIDAY">
+            <![CDATA[Memorial Day]]>
+        </date>
+        <date year="2016" month="6" date="19" type="NEUTRAL">
+            <![CDATA[Fathers Day]]>
+        </date>
+        <date year="2016" month="9" date="5" type="HOLIDAY">
+            <![CDATA[Labor Day]]>
+        </date>
+        <date year="2016" month="10" date="10" type="HOLIDAY">
+            <![CDATA[Columbus Day]]>
+        </date>
+        <date year="2016" month="11" date="24" type="HOLIDAY">
+            <![CDATA[Thanksgiving]]>
+        </date>
+        <date year="2016" month="11" date="25" type="NEUTRAL">
+            <![CDATA[Day after Thanksgiving]]>
+        </date>
+        <date year="2016" month="12" date="26" type="HOLIDAY">
+            <![CDATA[Christmas Day (in lieu)]]>
+        </date>
+        <date year="2017" month="1" date="2" type="HOLIDAY">
+            <![CDATA[New Years Day (in lieu)]]>
+        </date>
+        <date year="2017" month="1" date="16" type="HOLIDAY">
+            <![CDATA[Martin Luther King Day]]>
+        </date>
+        <date year="2017" month="2" date="20" type="HOLIDAY">
+            <![CDATA[Presidents' Day]]>
+        </date>
+        <date year="2017" month="5" date="14" type="NEUTRAL">
+            <![CDATA[Mother's Day]]>
+        </date>
+        <date year="2017" month="5" date="29" type="HOLIDAY">
+            <![CDATA[Memorial Day]]>
+        </date>
+        <date year="2017" month="6" date="18" type="NEUTRAL">
+            <![CDATA[Father's Day]]>
+        </date>
+        <date year="2017" month="9" date="4" type="HOLIDAY">
+            <![CDATA[Labor Day]]>
+        </date>
+        <date year="2017" month="10" date="9" type="HOLIDAY">
+            <![CDATA[Columbus Day]]>
+        </date>
+        <date year="2017" month="11" date="10" type="HOLIDAY">
+            <![CDATA[Veterans Day (in lieu)]]>
+        </date>
+        <date year="2017" month="11" date="23" type="HOLIDAY">
+            <![CDATA[Thanksgiving]]>
+        </date>
+        <date year="2017" month="11" date="24" type="NEUTRAL">
+            <![CDATA[Day after Thanksgiving]]>
+        </date>
+        <date year="2018" month="1" date="15" type="HOLIDAY">
+            <![CDATA[Martin Luther King Day]]>
+        </date>
+        <date year="2018" month="2" date="19" type="HOLIDAY">
+            <![CDATA[Presidents' Day]]>
+        </date>
+        <date year="2018" month="5" date="13" type="NEUTRAL">
+            <![CDATA[Mother's Day]]>
+        </date>
+        <date year="2018" month="5" date="28" type="HOLIDAY">
+            <![CDATA[Memorial Day]]>
+        </date>
+        <date year="2018" month="6" date="17" type="NEUTRAL">
+            <![CDATA[Father's Day]]>
+        </date>
+        <date year="2018" month="9" date="3" type="HOLIDAY">
+            <![CDATA[Labor Day]]>
+        </date>
+        <date year="2018" month="10" date="8" type="HOLIDAY">
+            <![CDATA[Columbus Day]]>
+        </date>
+        <date year="2018" month="11" date="22" type="HOLIDAY">
+            <![CDATA[Thanksgiving]]>
+        </date>
+        <date year="2018" month="11" date="23" type="NEUTRAL">
+            <![CDATA[Day after Thanksgiving]]>
+        </date>
+        <date year="2019" month="1" date="21" type="HOLIDAY">
+            <![CDATA[Martin Luther King Day]]>
+        </date>
+        <date year="2019" month="2" date="18" type="HOLIDAY">
+            <![CDATA[Presidents' Day]]>
+        </date>
+        <date year="2019" month="5" date="12" type="NEUTRAL">
+            <![CDATA[Mother's Day]]>
+        </date>
+        <date year="2019" month="5" date="27" type="HOLIDAY">
+            <![CDATA[Memorial Day]]>
+        </date>
+        <date year="2019" month="6" date="16" type="NEUTRAL">
+            <![CDATA[Father's Day]]>
+        </date>
+        <date year="2019" month="9" date="2" type="HOLIDAY">
+            <![CDATA[Labor Day]]>
+        </date>
+        <date year="2019" month="10" date="14" type="HOLIDAY">
+            <![CDATA[Columbus Day]]>
+        </date>
+        <date year="2019" month="11" date="28" type="HOLIDAY">
+            <![CDATA[Thanksgiving]]>
+        </date>
+        <date year="2019" month="11" date="29" type="NEUTRAL">
+            <![CDATA[Day after Thanksgiving]]>
+        </date>
+        <date year="2020" month="1" date="20" type="HOLIDAY">
+            <![CDATA[Martin Luther King Day]]>
+        </date>
+        <date year="2020" month="2" date="17" type="HOLIDAY">
+            <![CDATA[Presidents' Day]]>
+        </date>
+        <date year="2020" month="5" date="10" type="NEUTRAL">
+            <![CDATA[Mother's Day]]>
+        </date>
+        <date year="2020" month="5" date="25" type="HOLIDAY">
+            <![CDATA[Memorial Day]]>
+        </date>
+        <date year="2020" month="6" date="21" type="NEUTRAL">
+            <![CDATA[Father's Day]]>
+        </date>
+        <date year="2020" month="7" date="3" type="HOLIDAY">
+            <![CDATA[Independence Day (in lieu)]]>
+        </date>
+        <date year="2020" month="9" date="7" type="HOLIDAY">
+            <![CDATA[Labor Day]]>
+        </date>
+        <date year="2020" month="10" date="12" type="HOLIDAY">
+            <![CDATA[Columbus Day]]>
+        </date>
+        <date year="2020" month="11" date="26" type="HOLIDAY">
+            <![CDATA[Thanksgiving]]>
+        </date>
+        <date year="2020" month="11" date="27" type="NEUTRAL">
+            <![CDATA[Day after Thanksgiving]]>
+        </date>
+        <date year="2021" month="1" date="18" type="HOLIDAY">
+            <![CDATA[Martin Luther King Day]]>
+        </date>
+        <date year="2021" month="2" date="15" type="HOLIDAY">
+            <![CDATA[Presidents' Day]]>
+        </date>
+        <date year="2021" month="5" date="9" type="NEUTRAL">
+            <![CDATA[Mother's Day]]>
+        </date>
+        <date year="2021" month="5" date="31" type="HOLIDAY">
+            <![CDATA[Memorial Day]]>
+        </date>
+        <date year="2021" month="6" date="20" type="NEUTRAL">
+            <![CDATA[Father's Day]]>
+        </date>
+        <date year="2021" month="7" date="5" type="HOLIDAY">
+            <![CDATA[Independence Day (in lieu)]]>
+        </date>
+        <date year="2021" month="9" date="6" type="HOLIDAY">
+            <![CDATA[Labor Day]]>
+        </date>
+        <date year="2021" month="10" date="11" type="HOLIDAY">
+            <![CDATA[Columbus Day]]>
+        </date>
+        <date year="2021" month="11" date="25" type="HOLIDAY">
+            <![CDATA[Thanksgiving]]>
+        </date>
+        <date year="2021" month="11" date="26" type="NEUTRAL">
+            <![CDATA[Day after Thanksgiving]]>
+        </date>
+        <date year="2021" month="12" date="24" type="HOLIDAY">
+            <![CDATA[Christmas Day (in lieu)]]>
+        </date>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Project Management: task1" color="#8cb6ce" meeting="false" start="2022-08-27" duration="108" complete="90" thirdDate="2022-08-27" thirdDate-constraint="1" expand="true">
+            <notes>
+                <![CDATA[In the project management tasks all the technical, administrative, financial and managerial aspects of the program are performed.  The purpose is to ensure program requirements are fulfilled, and deliverable documentation is submitted in a timely manner.]]>
+            </notes>
+            <task id="1" name="Define Project Scope" color="#8cb6ce" meeting="false" start="2022-08-27" duration="5" complete="90" thirdDate="2022-07-01" thirdDate-constraint="0" expand="true">
+                <notes>
+                    <![CDATA[Some preliminary code writing to estimate scope.]]>
+                </notes>
+                <depend id="6" type="1" difference="4" hardness="Strong"/>
+            </task>
+            <task id="21" name="Status Reports" color="#8cb6ce" meeting="false" start="2022-09-21" duration="84" complete="0" thirdDate="2022-08-01" thirdDate-constraint="0" expand="true">
+                <task id="11" name="Status Report #1" color="#8cb6ce" meeting="true" start="2022-09-21" duration="0" complete="100" thirdDate="2022-09-21" thirdDate-constraint="1" expand="true">
+                    <notes>
+                        <![CDATA[Delivered presentation, MissionDesign(jb3).pptm.
+The audiance was polite, but only mildly interested.]]>
+                    </notes>
+                </task>
+            </task>
+        </task>
+        <task id="2" name="Project Software: task2" color="#8cb6ce" meeting="false" start="2022-08-31" duration="64" complete="100" thirdDate="2022-09-01" thirdDate-constraint="0" expand="true">
+            <task id="4" name="Main Menu #1" color="#8cb6ce" meeting="false" start="2022-08-31" duration="64" complete="100" thirdDate="2022-08-01" thirdDate-constraint="0" expand="false">
+                <notes>
+                    <![CDATA[Based on SMD book establish Excel main menu ws (worksheet).
+This will probably hyper-link to other ws's.]]>
+                </notes>
+                <task id="5" name="1,Orbit Def. &amp; Calc" color="#8cb6ce" meeting="false" start="2022-08-31" duration="12" complete="100" thirdDate="2022-09-04" thirdDate-constraint="0" expand="true">
+                    <task id="6" name="Ellipse#1" color="#8cb6ce" meeting="false" start="2022-08-31" duration="9" complete="100" thirdDate="2022-09-06" thirdDate-constraint="0" expand="true">
+                        <notes>
+                            <![CDATA[User entry of ellipse parameters.
+Two groups of user input.
+One test case for each group.]]>
+                        </notes>
+                        <depend id="7" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="7" name="Circle#1" color="#8cb6ce" meeting="false" start="2022-09-10" duration="1" complete="100" thirdDate="2022-09-16" thirdDate-constraint="0" expand="true">
+                        <depend id="8" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="8" name="Parabola#1" color="#8cb6ce" meeting="false" start="2022-09-11" duration="1" complete="100" thirdDate="2022-09-17" thirdDate-constraint="0" expand="true">
+                        <depend id="9" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="9" name="Hyperbola#1" color="#8cb6ce" meeting="false" start="2022-09-12" duration="1" complete="100" thirdDate="2022-09-21" thirdDate-constraint="0" expand="true">
+                        <depend id="23" type="2" difference="0" hardness="Rubber"/>
+                    </task>
+                </task>
+                <task id="12" name="2,Parameters At A Point" color="#8cb6ce" meeting="false" start="2022-09-13" duration="10" complete="100" thirdDate="2022-09-19" thirdDate-constraint="0" expand="true">
+                    <depend id="13" type="2" difference="0" hardness="Strong"/>
+                    <depend id="17" type="1" difference="5" hardness="Strong"/>
+                    <task id="22" name="Computer/Excel Issues" color="#8cb6ce" meeting="false" start="2022-09-13" duration="3" complete="100" thirdDate="2022-09-13" thirdDate-constraint="0" expand="true">
+                        <depend id="13" type="2" difference="0" hardness="Rubber"/>
+                    </task>
+                    <task id="23" name="PAP Coding" color="#8cb6ce" meeting="false" start="2022-09-13" duration="10" complete="100" thirdDate="2022-08-01" thirdDate-constraint="0" expand="true">
+                        <notes>
+                            <![CDATA[Task started, but delayed 2 days due to Excel launch issue; solved]]>
+                        </notes>
+                        <depend id="11" type="2" difference="-2" hardness="Rubber"/>
+                        <depend id="22" type="1" difference="0" hardness="Rubber"/>
+                    </task>
+                </task>
+                <task id="13" name="3,Ground Track" color="#8cb6ce" meeting="false" start="2022-09-23" duration="9" complete="100" thirdDate="2022-09-26" thirdDate-constraint="0" expand="true">
+                    <notes>
+                        <![CDATA[Ground track user interface and calculations are done for ellipse.  I will code the other orbit types (circle, parabola, hyperbola) and testing needs require it.]]>
+                    </notes>
+                    <depend id="14" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="14" name="4,Orbit Plane Changes" color="#8cb6ce" meeting="false" start="2022-10-02" duration="5" complete="100" thirdDate="2022-10-01" thirdDate-constraint="0" expand="true">
+                    <depend id="15" type="2" difference="0" hardness="Rubber"/>
+                    <depend id="24" type="2" difference="0" hardness="Rubber"/>
+                </task>
+                <task id="15" name="5,Perturbations" color="#8cb6ce" meeting="false" start="2022-10-08" duration="27" complete="100" thirdDate="2022-10-05" thirdDate-constraint="0" expand="true">
+                    <notes>
+                        <![CDATA[2022-11-04, till today only Exel header in ws; i.e. no previous perturbation coding.  I will call this done for now.  However, I will code this function some time in the future as the need arises as development procedes in specific use cases.]]>
+                    </notes>
+                </task>
+                <task id="16" name="6,Utilities" color="#8cb6ce" meeting="false" start="2022-10-07" duration="27" complete="100" thirdDate="2022-10-16" thirdDate-constraint="0" expand="true">
+                    <notes>
+                        <![CDATA[2022-10-23; calendar took much longer than expected.]]>
+                    </notes>
+                    <task id="24" name="Trigonometry" color="#8cb6ce" meeting="false" start="2022-10-07" duration="27" complete="100" thirdDate="2022-10-02" thirdDate-constraint="0" expand="true">
+                        <notes>
+                            <![CDATA[2022-11-03 only took 2 person-days to complete (including report code generation), but task duration took 27 days since I completed other tasks befor returning to this effort.]]>
+                        </notes>
+                        <depend id="25" type="1" difference="3" hardness="Strong"/>
+                    </task>
+                    <task id="25" name="Calendar" color="#8cb6ce" meeting="false" start="2022-10-11" duration="13" complete="100" thirdDate="2022-10-15" thirdDate-constraint="0" expand="true">
+                        <notes>
+                            <![CDATA[2022-10-14; calendar conversions done today, moving on, almost :--)
+2022-10-23; been traveling & very sick... calendar testing done, many calendar updates resulting from test.]]>
+                        </notes>
+                        <depend id="26" type="1" difference="5" hardness="Strong"/>
+                    </task>
+                    <task id="26" name="Ephemeris" color="#8cb6ce" meeting="false" start="2022-10-16" duration="10" complete="100" thirdDate="2022-11-15" thirdDate-constraint="0" expand="true">
+                        <notes>
+                            <![CDATA[2022-10-23: since the book does not call out ephemeris specifics, I had to choose from several methods.  Each method gives different results, and at this point it is hard to know which method.  So I choose the method I could trace to a source (JPL in this case).
+
+This task related to getting calendar conversions properly.  So I had to return to calendar task to clean up error testing.
+2022-10-25: finally implemented an ephemeris table I trust (JPL).  My latest method, I read planetary ephemeris coefficients from a table in a ws (worksheet).  What I have now is good enough.]]>
+                        </notes>
+                        <depend id="27" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="27" name="Field-Of-View" color="#8cb6ce" meeting="false" start="2022-10-26" duration="8" complete="100" thirdDate="2022-11-27" thirdDate-constraint="0" expand="true">
+                        <notes>
+                            <![CDATA[2022-10-31 While on travel, San Fransisco, user tnterface & calculations done.  Finish reporting later. 2022-11-02 done.]]>
+                        </notes>
+                        <depend id="28" type="2" difference="-2" hardness="Strong"/>
+                    </task>
+                    <task id="28" name="Propellant" color="#8cb6ce" meeting="false" start="2022-11-01" duration="2" complete="100" thirdDate="2022-11-28" thirdDate-constraint="0" expand="true">
+                        <depend id="30" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                </task>
+            </task>
+        </task>
+        <task id="17" name="Mission Plan Report Develop" color="#8cb6ce" meeting="false" start="2022-09-18" duration="46" complete="100" thirdDate="2022-11-05" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[2022-11-03 I consider this effort done even though perturbations code has not started even a mission report will need to be generated for perturbation calculations.]]>
+            </notes>
+            <depend id="30" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="18" name="Review Scope Next: task3" color="#8cb6ce" meeting="false" start="2022-11-04" duration="21" complete="100" thirdDate="2022-10-21" thirdDate-constraint="0" expand="true">
+            <task id="30" name="Update PAP" color="#8cb6ce" meeting="false" start="2022-11-04" duration="2" complete="100" thirdDate="2022-11-09" thirdDate-constraint="0" expand="true">
+                <depend id="31" type="1" difference="2" hardness="Strong"/>
+                <depend id="32" type="1" difference="0" hardness="Strong"/>
+            </task>
+            <task id="31" name="Update Ephemeris" color="#8cb6ce" meeting="false" start="2022-11-06" duration="6" complete="100" thirdDate="2022-11-06" thirdDate-constraint="0" expand="true">
+                <notes>
+                    <![CDATA[2022-11-09 Updated ephemeris tables.  Next add code, calculating elements for all the planets on a given date.  This supports mission planning for interplanetary trajectories.  Consider expanding calculating elements to include distance to the sun vectors.
+2022-11-12 Added another ephemeris table from D.A. Vallado's Matlab code associated with his book.  Added a bunch of ephemeris code associated with the ephemeris tables ws (worksheet); planetary ephemeris summary table with user entered date.]]>
+                </notes>
+            </task>
+            <task id="32" name="Review Book Sample Problems" color="#8cb6ce" meeting="false" start="2022-11-04" duration="9" complete="100" thirdDate="2022-09-25" thirdDate-constraint="0" expand="true">
+                <notes>
+                    <![CDATA[2022-11-09.  Five of the six sample problems in the book (C.D.Brown, pp150) were completed.  The last one, earth->venus, will take a couple days, as I update ephemeris code.  May include sun to planet distance calculations.
+2022-11-13.  Generated a bunch of ephemeris code for a planetary summary table; reviewed JPL (Horizons), Vallado, Meeus ephemeris code & discussions; Not sure how much I trust the data I am getting, but I am good for now.  Next, I will finish with the Venus trip outlined in C.D. Brown's book.
+2022-11-14.  Decided to build Mission Planning worksheet, starting with earth->venus trip.]]>
+                </notes>
+                <depend id="33" type="2" difference="0" hardness="Strong"/>
+                <depend id="34" type="2" difference="0" hardness="Strong"/>
+                <depend id="36" type="2" difference="7" hardness="Strong"/>
+            </task>
+            <task id="34" name="New Mission Plan WS" color="#8cb6ce" meeting="false" start="2022-11-14" duration="12" complete="100" thirdDate="2022-11-16" thirdDate-constraint="0" expand="true">
+                <notes>
+                    <![CDATA[2022-11-21.  Implementing the mission plan ws (worksheet) made clear necessary updates to plane trig code (in 5_Utilities ws).  Will need to add a task if I decide to add spherical trig code to the utilities code.
+2022-11-27. In my view, C.D.Brown's book and associated software does an inadequate job to calculate interplanetary missions.  I needed to review Vallado, and Curtis to get insite into angles and orbital energy associations for interplanetary missions.  Unfortunately these distactions will delay my VBA (visual basic for applications) coding and Excel ws organization.
+
+At this point there is some code cleanup (limit testing) for the OrbWin software as defined by the fook, but I have reached the limit of what the original OrbWin software capabilities.  I am disappointed that the scope of the original OrbWin software does not help with patched conic missions.  From this point forward I am expanding the scope of OrbWin - this is my plan.]]>
+                </notes>
+                <depend id="35" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="33" name="Use Cases: task4" color="#8cb6ce" meeting="false" start="2022-11-21" duration="25" complete="12" thirdDate="2022-11-12" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[2022-11-21.  Numerous test cases for mission plan ws (worksheet) implemented already; use test cases also involved other ws functions; also driving code changes to other ws functions; including ephemeris tables ws, and utilities ws (plane geometry functions).  Not sure how I will document the use casses.
+2022-11-27.  I will skip Earth to Venus use case since the book does an inadequate job (IMHO) explaning the geometry.  It is as though the author was in a hurry to finish the book.  I will run thru the other use cases in the book to guide my coding cleanup.
+
+This task now becomes header.
+2022-12-17.  Though it is great having the grandchildren over for the last couple weeks, I can not find much time to work on this project, like over the last couple months...]]>
+            </notes>
+            <task id="36" name="Build use cases" color="#8cb6ce" meeting="false" start="2022-11-21" duration="25" complete="20" thirdDate="2022-11-14" thirdDate-constraint="0" expand="true">
+                <notes>
+                    <![CDATA[2022-11-27.  Build on use cases done so far; basically examples in the C.D.Brown book.
+
+2022-12-17.  Though it is great having the grandchildren over for the last couple weeks, I can not find much time to work on this project, like over the last couple months...
+
+Right now, I am tired of this project.  I will call it quits for now.  I plan to come back to this project in the new year.]]>
+                </notes>
+            </task>
+            <task id="35" name="Code: coe-&gt;v&amp;r" color="#8cb6ce" meeting="false" start="2022-11-28" duration="10" complete="5" thirdDate="2022-11-14" thirdDate-constraint="0" expand="true">
+                <notes>
+                    <![CDATA[2022-12-03.  This turns into a exercise in coordinate transformations/rotations, which I have not done in a very long time.  This task is including more than expected.
+2022-12-13.  I developed an Excel workbook (EulerRotations.xlsx)  to help with coordinate rotations in support of coe->v&r; clasical orbital elements to velocity and radius.
+2022-12-17.  It is nice having the grandchildren for the last couple weeks, but I can not find much time to work on this project.
+
+Right now, I am tired of this project.  I will call it quits for now.  I plan to come back to this project in the new year.]]>
+                </notes>
+                <depend id="37" type="1" difference="5" hardness="Strong"/>
+            </task>
+            <task id="37" name="Develop Coord Rotations" color="#8cb6ce" meeting="false" start="2022-12-03" duration="14" complete="5" thirdDate="2022-12-08" thirdDate-constraint="0" expand="true">
+                <notes>
+                    <![CDATA[2022-11-07.  This is taking much longer than expected.  Coordinate transformations/rotations are not treated well (IMHO) in the C.D.Brown book.
+2022-12-13.  I developed an Excel workbook (EulerRotations.xlsx)  to help with coordinate rotations (inspired by efforts on the web).
+2022-12-17.  It is nice having the grandchildren for the last couple weeks, but I can not find much time to work on this project.
+Right now, I am tired of this project.  I will call it quits for now.  I plan to come back to this project in the new year.]]>
+                </notes>
+            </task>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>
